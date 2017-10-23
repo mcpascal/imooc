@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div class="data"></div>
+<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript">
+    $(function(){
+        var url = 'data.php'
+        var data = {'userid':1,'group':'admin'}
+        var success = function(response){
+            alert(response)
+        }
+        $.get(url,data,success,'json');
+    });
+
+</script>
+
+</body>
+</html>
