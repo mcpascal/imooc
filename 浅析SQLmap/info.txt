@@ -1,0 +1,2 @@
+sqlmap sql注入自动化检查工具
+python 2.7
