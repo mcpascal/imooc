@@ -1,0 +1,5 @@
+安装gd库
+验证是否安装gd库
+extension_loaded('gd');
+function_exists('gd_info');
+gd_info();
